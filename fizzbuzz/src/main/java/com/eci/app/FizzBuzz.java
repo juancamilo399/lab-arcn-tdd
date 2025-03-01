@@ -6,10 +6,8 @@ public class FizzBuzz {
             return "FizzBuzz";
         } else if (n % 3 == 0) {
             return "Fizz";
-        } else if (n % 5 == 0) {
+        } else if (n % 5 == 0)
             return "Buzz";
-        } else {
-            return String.valueOf(n);
-        }
+        return String.valueOf(n);
     }
 }
